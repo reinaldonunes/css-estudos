@@ -2,4 +2,4 @@
 
 **NAVEGANDO PELOS PROJETOS**
 
-[Tailwind CSS :: Primeiros passos](https://github.com/reinaldonunes/css-estudos/tailwindcss)
+[Tailwind CSS :: Primeiros passos](https://github.com/reinaldonunes/css-estudos/tree/main/tailwindcss)
