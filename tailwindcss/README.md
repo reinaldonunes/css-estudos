@@ -12,14 +12,11 @@ Por depender de classes de utilidade, torna o HTML extremamente poluído, sem co
 
 ## SOLUÇÃO 
 O próprio framework dá uma solução alternativa, que é a utilização do *@apply*, onde pode-se criar uma classe totalmente semântica, seguindo a metodologia BEM (Block, Element, Modifier), sem precisar perder todos os recuros úteis que tem a oferecer. Exemplo:
-~~~HTML
+~~~html
 <div class="container">Exemplo</div>
 ~~~
-
-~~~CSS
-.container{
-    @apply font-semilbold mt-4 mb-5 text-xl lg:text-xl;
-}
+~~~css
+.container{ @apply font-semilbold mt-4 mb-5 text-xl lg:text-xl; }
 ~~~
 
 ** Utilizando o @apply dessa forma, é muito mais prático criar componentes, reutilizar estruturas de código, e a customização também se torna mais fácil.
